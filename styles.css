@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the fon for the whole page */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Container for sections */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Styling the headings */
+h1, h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header p {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation Style */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Button Styling */
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Skills Section */
+.skills-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list ul li {
+    display: inline-block;
+    margin-bottom: 0 15px;
+    font-weight: bold;
+}
+
+.skills-list ul li {
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Projects Section */
+
+.projects-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projects-list ul li {
+    margin-bottom: 20px;
+}
+
+.projects-list ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.projects-list ul li img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
